@@ -11,7 +11,7 @@ website:
     locale: "en_US"
   twitter-card:
     card-style: summary_large_image
-  sitemap: true
+  sitemap: false
   navbar:
     left:
       - href: index.qmd
