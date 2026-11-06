@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: "Charles Lehnen"
+  site-url: "https://www.charleslehnen.com"
+  description: "Academic portfolio of Charles Lehnen — PhD candidate in Integrative and Evolutionary Biology at USC researching rewilding, Galápagos Giant Tortoises, and trophic ecology."
+  image: "images/profile.jpg"
+  open-graph:
+    site-name: "Charles Lehnen"
+    locale: "en_US"
+  twitter-card:
+    card-style: summary_large_image
+  sitemap: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: aboutme.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Projects
+      - href: photos.qmd
+        text: Photo Gallery
+      - href: media.qmd
+        text: Media
+      - href: documents/Charles Lehnen_CV_2025.pdf
+        text: CV
+  favicon: "images/favicon-32x32.png"
+  page-footer:
+    right: "*[This website](https://github.com/CharlesLehnen/portfolio) is built with Quarto and hosted on Github Pages. Website design adapted from [Albury Catalina](https://github.com/alburycatalina/alburycatalina.github.io).*"
+  google-analytics: "G-TKLYP8KJK7"
+    
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+editor: visual
+
+execute:
+  freeze: auto
+
